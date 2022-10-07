@@ -55,7 +55,7 @@
     
                    xhtml += '<a href="https://jgjk.mobi/p/' + element.Gambar.substr(-17, 13) + '">'+'<div class="OnsyiCardo">';
                           
-    xhtml += '<t class="OnsyLogo">Onsyi Design</t>';
+    xhtml += '<t class="OnsyLogo">NOBi Food</t>';
     
     xhtml += '<txt class="OnsyiPromo">20% off</txt>';
     
@@ -111,7 +111,7 @@
 
                xhtml += '<a href="https://jgjk.mobi/p/' + element.Gambar.substr(-17, 13) + '">'+'<div class="OnsyiCard">';
     
-xhtml += '<t class="OnsyLogo">Onsyi Design</t>';
+xhtml += '<t class="OnsyLogo">NOBi Food</t>';
 
 xhtml += '<t class="OnsyiLabelSlideFloatFD">New</t>';
 
