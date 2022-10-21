@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<link rel="stylesheet" href="https://aselritz.github.io/onsyi.github.io/Om%20Edhi.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />   
 <script src="https://cdn.lordicon.com//libs/frhvbuzj/lord-icon-2.0.2.js"></script>
@@ -421,38 +422,7 @@ padding: 0px;
 
 
 
+<script src="https://aselritz.github.io/onsyi.github.io/Om%20Edhi.js" crossorigin="anonymous"></script>
+      
 
-      <script id="rendered-js">
-const tabs = document.querySelectorAll(".tab");
-const tabContent = document.querySelectorAll(".tab-content");
-
-let tabNo = 0;
-let contentNo = 0;
-
-tabs.forEach(tab => {
-  tab.dataset.id = tabNo;
-  tabNo++;
-  tab.addEventListener("click", function () {
-    tabs.forEach(tab => {
-      tab.classList.remove("active");
-      tab.classList.add("non-active");
-    });
-    this.classList.remove("non-active");
-    this.classList.add("active");
-    tabContent.forEach(content => {
-      content.classList.add("hidden");
-      if (content.dataset.id === tab.dataset.id) {
-        content.classList.remove("hidden");
-      }
-    });
-  });
-});
-
-tabContent.forEach(content => {
-  content.dataset.id = contentNo;
-  contentNo++;
-});
-//# sourceURL=pen.js
-    </script>
- 
-</body></html>
+   
