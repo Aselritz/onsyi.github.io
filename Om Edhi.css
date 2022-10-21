@@ -1,0 +1,100 @@
+
+      @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Rubik+Burned&family=Rubik+Distressed&family=Rubik:wght@300;400;500;600;700&display=swap');
+      
+      body { Background: #eaecf0 !important; font-weight: 500;
+        font-family: 'Poppins', sans-serif; }
+
+      .efek {      
+            animation-duration: 1s;
+            animation-iteration-count: infinite;        
+        }
+        .bounce-1 {
+            animation-name: bounce-1;
+            animation-timing-function: linear;
+        }
+    @keyframes bounce-1 {
+            0%   { transform: translateY(0); }
+            50%  { transform: translateY(-15px); }
+            100% { transform: translateY(0); }
+        }
+    
+
+            .wallet { margin: -35% 10% 0%; height: 26px; object-fit: fit; width: 26px;z-index:1;position: relative; }
+            
+            .paytext { font-family: 'dynapuff', cursive; font-weight: bold; color: #fff; position: relative; margin: -34% 19% 0%; font-size: 15px; z-index:1; }
+            
+            .saldo { position: absolute; margin: 3% 15% 0%; font-family: 'Roboto', sans-serif; font-weight: bold; color: yellow; font-size: 19px; z-index:1; }
+            
+            .saldoku { position: absolute; margin: 13% 15% 0%; font-family: 'Poppins' sans-serif; font-weight: 400; color: #fff; font-size: 60%; z-index:1; }
+            
+            .topuptext { position: absolute; margin: 10% 60.5% 0%; font-family: 'Poppins' sans-serif; font-weight: 500; color: #fff; font-size: 60%; z-index:1; }
+            
+            .discounttext { position: absolute; margin: 10% 75.5% 0%; font-family: 'Poppins' sans-serif; font-weight: 500; color: #fff; font-size: 60%; z-index:1; }
+            
+            .topup { background: #ED6F0A; width: 10%; border-radius: 12px; padding: 3px; text-align: center; border: 2px solid #fff; box-shadow: 1px 1px 11px #ED6F0A, -1px -1px 11px #eaecf0; position: relative; margin: 0% 60% 0%;  z-index:1; }
+            
+            .discount { background:#ED6F0A; width: 10%; border-radius: 12px; padding: 3px; text-align: center; border: 2px solid #fff; box-shadow: 1px 1px 11px #ED6F0A, -1px -1px 11px #eaecf0; position: relative; margin: -9.7% 77% 0%;  z-index:1; }
+                     
+                
+                .card21 { color: #fff; background: #ED6F0A ; float: left; width: 50px; height: 50px; margin: 10px; box-shadow: 5px 5px 11px #d0d2d6, -5px -5px 11px #ffffff; border-radius: 100px;}
+                     
+    
+     .tittle { font-family: 'dynapuff',cursive; font-weight: 600; font-size: 90%; color: #000; text-align: left; margin-top: 0%; margin-bottom: 1%; margin-left: 5%; border-radius: 0px 10px 10px 0px; width: 58%; }  
+       
+      .lokasi { color: #555; text-align: left; font-size: 80%; margin-left: 5%; font-weight: 400; margin-left: 5%; }
+        
+      .lainnya { float: right; font-size: 70%; margin-top: -5%; margin-right: 3%; text-decoration: none; display: inline-block; color: #ffa500; box-shadow: 5px 5px 11px #d0d2d6, -5px -5px 11px #ffffff; width: 20%; height: auto; text-align: center;  border-radius: 20px; font-weight: 500; }
+            
+      .lainnya:hover {  text-decoration: none; display: inline-block; color: white; background-color: #ffa500; transition-duration: 0.2s; -webkit-tap-highlight-color: transparent; transition: background-color 0.1s ease-in-out; text-decoration: none; 
+}
+
+.tabs {
+  display: flex;
+  overflow: scroll;
+}
+.tabs button {
+  width: auto;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: -2%;
+  border: none;  
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ED6F0A ;
+  box-shadow: 3px 3px 3px rgba(90, 90, 90, 0.8) inset, -3px -3px 3px #ED6F0A inset;
+  color: #fff; 
+}
+.tabs button:hover {
+  opacity: 1;
+  box-shadow: 3px 3px 3px rgba(90, 90, 90, 0.8) inset, -3px -3px 3px #ED6F0A inset;
+}
+.tabs .non-active {
+  opacity: 0.6;
+  box-shadow: 5px 5px 11px #d0d2d6, -5px -5px 11px #ffffff;
+  background: #eaecf0  ;
+  color: #ED6F0A;
+}
+.tab-content {
+  padding: 0px 0px;  
+}
+.hidden {
+  display: none;
+}
+
+    .ca {
+     box-shadow: 5px 5px 11px #d0d2d6, -5px -5px 11px #ffffff;   
+     width: 90%;
+     border-radius: 20px;
+     display: inline-block;
+     margin: 2% 5% 25%;  
+   }
+   imy {
+     border-radius: 10px 10px 0 0;    
+   }
+   .container {
+     padding: 0px 10px;
+   }
+  
