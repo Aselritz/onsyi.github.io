@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Rubik+Burned&family=Rubik+Distressed&display=swap");
+body {
+  background: #fbfbfb !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
@@ -235,13 +243,6 @@
   transform-origin: 50% 50%;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Rubik+Burned&family=Rubik+Distressed&display=swap");
-body {
-  background: #fbfbfb !important;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  -webkit-tap-highlight-color: transparent;
-}
 .efek {
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
