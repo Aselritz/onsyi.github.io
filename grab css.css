@@ -326,7 +326,7 @@ imy {
   color: #000;
   font-size: 20px;
   text-align: left;
-  margin: 0% 5% 0;
+  margin: 10% 5% 0;
   z-index: 999;
   position: fixed;
 }
@@ -334,7 +334,7 @@ imy {
   height: 105px;
   width: 95px;
   position: relative;
-  margin-top: -10px;
+  margin-top: 40px;
   background: #fbfbfb;
   border-radius: 10px;
   text-transform: ;
