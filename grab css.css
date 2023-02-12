@@ -436,7 +436,9 @@ imy {
 }
 
 .ca {
-  background: linear-gradient(to top, #13a3d7 20%, #57d6f9 80%);
+  background: linear-gradient(62deg, #13a3d7,#fff,#57d6f9,#fff);
+  animation: gradient 20s ease infiniti;
+  background-size: 400% 400%;
   box-shadow: 5px 5px 10px #c9cccf, -5px -5px 10px #ffffff;
   transition: 0.3s;
   width: 90%;
