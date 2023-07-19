@@ -6,165 +6,6 @@ font-family: 'poppins', sans-serif !important;
 -webkit-tap-highlight-color: transparent;
 font-weight: 500 ;
 }
-.efek {      
-        animation-duration: .5s;
-        animation-iteration-count: infinite;        
-    }
-    .bounce-1 {
-        animation-name: bounce-1;
-        animation-timing-function: linear;
-    }
-@keyframes bounce-1 {
-        0%   { transform: translateY(0); }
-        50%  { transform: translateY(-5px); }
-        100% { transform: translateY(0); }
-    }
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;   
-}
-.f { font-family: 'poppins', sans-serif; font-weight: 600; font-size: 90%; text-align: left; margin: 5% 5% 0%;
-}
-.ff { font-family: 'roboto', sans-serif !important; font-weight: 400; color: #333; font-size: 80%; text-align: left; margin: 0% 5% 5%;
-}
-.card21 { color: #fff; background: #e0e0e0 ; float: left; width: 50px; height: 50px; margin: 10px; box-shadow: 3px 3px 5px #c7c9cc, -3px -3px 5px #ffffff; border-radius: 100px; }
-
-  .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;      
-    }
-    .saldo-card {
-      position: relative;
-      width: 90%;
-      margin-top: 22%;
-      background-color: #009688;
-      max-width: 100%;
-      height: 170px;
-      border-radius: 15px;
-      padding: 20px;
-      color: #ffffff;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      overflow: hidden;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    }
-
-    .saldo-card .saldo-info {
-      display: flex;
-      align-items: center;
-    }
-
-    .saldo-card .saldo-amount {
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-
-    .saldo-card .saldo-label1 {
-      font-size: 12px;
-      font-weight: bold;
-      margin: -5px 0px 0px;
-      
-    }
-.saldo-card .saldo-amount1 {
-      font-size: 15px;
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-
-    .saldo-card .saldo-label {
-      font-size: 16px;
-      font-weight: bold;
-      margin: -5px 0px 0px;
-      
-    }
-
-    .saldo-card .saldo-action {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .saldo-card .saldo-action a {
-      color: #ffffff;
-      text-decoration: none;
-      display: inline-block;
-      width: auto;
-      font-size: 14px;
-      padding: 4px 16px;
-      border-radius: 10px;
-      border: 1px solid #ffffff;
-      transition: background-color 0.3s ease;
-    }
-
-    .saldo-card .saldo-action a:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-    }
-
-    .saldo-card::before {
-      content: "";
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background-image: linear-gradient(45deg, #04510B 0%, #00880C 50%, #04510B 100%);
-      transform: translate(-50%, -50%) scale(1.5);
-      z-index: -1;
-      opacity: 0.8;
-      animation: animateBackground 5s infinite;
-    }
-
-    .saldo-card .profile-pic {
-      position: absolute;
-      top: 14px;
-      right: 15px;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      background-color: #ffffff;
-      overflow: hidden;
-    }
-
-    .saldo-card .profile-pic img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    @keyframes animateBackground {
-      0% { transform: translate(-50%, -50%) scale(1.5) rotate(0deg); }
-      100% { transform: translate(-50%, -50%) scale(1.5) rotate(360deg); }
-    }
-@media (min-width: 375px) {
-      .saldo-card {
-        max-width: 350px;
-      }
-    }
-    @media (min-width: 576px) {
-      .saldo-card {
-        max-width: 400px;
-      }
-    }
-
-    @media (min-width: 768px) {
-      .saldo-card {
-        max-width: 500px;
-      }
-    }
-
-    @media (min-width: 992px) {
-      .saldo-card {
-        max-width: 600px;
-      }
-    }
-
-    @media (min-width: 1200px) {
-      .saldo-card {
-        max-width: 700px;
-      }
-    }
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
@@ -319,7 +160,7 @@ font-weight: 500 ;
   border-radius: 10px;
 }
 .cardo {
-  background: #dcdcdc;
+  background: #fbfbfb;
   float: left;
   width: 90px;
   height: 32px;
@@ -402,6 +243,13 @@ font-weight: 500 ;
   transform-origin: 50% 50%;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Rubik+Burned&family=Rubik+Distressed&display=swap");
+body {
+  background: #fbfbfb !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+}
 .efek {
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
@@ -425,7 +273,26 @@ font-weight: 500 ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.f {
+  background: #;
+  color: #000;
+  width: 50%;
+  font-family: "DynaPuff", cursive;
+  padding-left: %;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: left;
+  margin: 10% 5% 5%;
+  border-radius: 0 10px 10px 0;
+}
+.ff {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  color: #13a3d7;
+  font-size: 15px;
+  text-align: left;
+  margin: 1% 5% 5%;
+}
 .navigasi {
   display: grid;
   grid-template-columns: 24% 24% 24% 24%;
@@ -466,7 +333,7 @@ imy {
   color: #fff;
   font-size: 20px;
   text-align: left;
-  margin: 5% 5% 0;
+  margin: -26% 5% 0;
   z-index: 999;
   position: fixed;
 }
@@ -474,7 +341,7 @@ imy {
   height: 105px;
   width: 95px;
   position: relative;
-  margin-top: 70px;
+  margin-top: -40px;
   background: #fbfbfb;
   border-radius: 10px;
   text-transform: ;
@@ -576,9 +443,7 @@ imy {
 }
 
 .ca {
-  background: linear-gradient(62deg, #13a3d7,#fff,#57d6f9,#fff);
-  animation: gradient 20s ease infinite;
-  background-size: 400% 400%;
+  background: linear-gradient(to top, #13a3d7 20%, #57d6f9 80%);
   box-shadow: 5px 5px 10px #c9cccf, -5px -5px 10px #ffffff;
   transition: 0.3s;
   width: 90%;
@@ -631,12 +496,12 @@ imy {
   color: #fff;
   font-size: 20px;
   text-align: left;
-  margin: -15% 5% 0;
+  margin: -12% 5% 0;
   z-index: 999;
   position: fixed;
 }
 body .contain {
-  margin-top: 20%;
+  margin-top: -14%;
   left: 0%;
   font-size: 0;
   border-radius: 3px;
@@ -645,7 +510,7 @@ body .contain {
   background: #;
 }
 .v {
-  margin: -10% 0% 0;
+  margin: -2% 0% 0;
   height: 21px;
   width: auto;
   position: relative;
@@ -708,7 +573,7 @@ body .contain .line {
   background: #57d6f9;
   width: 35%;
   border-radius: 10px;
-  top: 17%;
+  top: 16%;
   left: 0;
   z-index: 99;
   transition: 0.25s ease;
@@ -753,7 +618,7 @@ body .contain .content-contain .content i {
   color: rgb(255, 255, 255);
   font-size: 20px;
   text-align: left;
-  margin: -15% 5% 0;
+  margin: -25% 5% 0;
   z-index: 999;
   position: fixed;
 }
@@ -761,12 +626,12 @@ body .contain .content-contain .content i {
   width: 12%;
   text-align: left;
   border-radius: 100px;
-  margin: 20% 5% 0;
+  margin: 0% 5% 0;
 }
 .edit {
   width: 30px;
   float: right;
-  margin: -7% 5% 0;
+  margin: -10% 5% 0;
   border-radius: 100px;
   background: #fbfbfb;
   box-shadow: 6px 6px 9px #d9d9d9, 0px 0px 0px #ffffff;
@@ -880,9 +745,9 @@ i {
 .tabbar {
   --black: #000;
   --white: transparent;
-  --primary: #5A67E0;
-  --background: #eaecf0;
-  --icon-active: #fff ;
+  --primary: #13a3d7;
+  --background: #fff;
+  --icon-active: #fff;
   width: 100%;
   height: 60px;
   left: 0;
@@ -896,7 +761,8 @@ i {
   background: var(--background);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
 }
-.tabbar:before, .tabbar:after {
+.tabbar:before,
+.tabbar:after {
   content: "";
   position: absolute;
   left: 0%;
@@ -906,24 +772,24 @@ i {
 .tabbar:before {
   width: 58px;
   height: 58px;
-  margin-left: -28px;
-  background: var(--primary );
+  margin-left: -30px;
+  background: var(--primary);
   top: -31px;
   z-index: 1;
 }
 .tabbar:after {
-  width: 78px;
-  height: 78px;
+  width: 74px;
+  height: 74px;
   margin-left: -38px;
-  background: rgba(122, 135, 249, 0.1);
-  top: -42px;
+  background: rgb(19, 163, 215, 0.2);
+  top: -39px;
 }
 .tabbar li a {
   display: block;
   padding: 15px 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  transition: transform 0.5s ease;
+  transition: transform 0.2s ease;
   -webkit-tap-highlight-color: transparent;
 }
 .tabbar li a div {
@@ -939,9 +805,9 @@ i {
 }
 .tabbar li a div svg {
   display: block;
-  width: 32px;
-  height: 32px;
-  fill: rgba(122, 135, 249, 0.3);
+  width: 28px;
+  height: 28px;
+  fill: #3f3d56;
   stroke-width: 1.3px;
   stroke: var(--black);
 }
@@ -955,77 +821,80 @@ i {
   transform: scaleX(var(--s-x)) scaleY(var(--s-y));
 }
 .tabbar li.active a div {
-  --y: -37px;
-  
+  --y: -35px;
 }
 .tabbar li.active a div svg {
   fill: var(--icon-active);
   stroke: var(--white);
 }
-.tabbar li.active a.calendar em:before, .tabbar li.active a.calendar em:after {
+.tabbar li.active a.calendar em:before,
+.tabbar li.active a.calendar em:after {
   background: var(--icon-active);
 }
 .tabbar li:not(.active) a div {
-  transition: transform 0.5s ease;
+  transition: transform 0.4s ease;
 }
 .tabbar li:not(.active) a div svg {
-  transition: fill 0.5s ease;
+  transition: fill 0.4s ease;
 }
 .tabbar li:not(.active) a:active {
   transform: scale(0.92);
 }
 .tabbar li.move a div {
-  -webkit-animation: icon 0.5s linear forwards;
-          animation: icon 0.5s linear forwards;
+  -webkit-animation: icon 1.2s linear forwards;
+  animation: icon 1.2s linear forwards;
 }
 .tabbar li.move a div svg {
-  -webkit-animation: svg 0.5s linear forwards;
-          animation: svg 0.5s linear forwards;
+  -webkit-animation: svg 1.2s linear forwards;
+  animation: svg 1.2s linear forwards;
 }
 .tabbar li.move a.box div:before {
-  -webkit-animation: element-far 0.5s linear forwards;
-          animation: element-far 0.5s linear forwards;
+  -webkit-animation: element-far 1.2s linear forwards;
+  animation: element-far 1.2s linear forwards;
 }
 .tabbar li.move a.box div em {
-  -webkit-animation: element-close 0.5s linear forwards;
-          animation: element-close 0.5s linear forwards;
+  -webkit-animation: element-close 1.2s linear forwards;
+  animation: element-close 1.2s linear forwards;
 }
 .tabbar li.move a.home div:before {
-  -webkit-animation: element-close 0.5s linear forwards;
-          animation: element-close 0.5s linear forwards;
+  -webkit-animation: element-close 1.2s linear forwards;
+  animation: element-close 1.2s linear forwards;
 }
 .tabbar li.move a.profil div:before {
-  -webkit-animation: element-close 0.5s linear forwards;
-          animation: element-close 0.5s linear forwards;
+  -webkit-animation: element-close 1.2s linear forwards;
+  animation: element-close 1.2s linear forwards;
 }
 .tabbar li.move a.calendar div:before {
-  -webkit-animation: element-close 0.5s linear forwards;
-          animation: element-close 0.5s linear forwards;
+  -webkit-animation: element-close 1.2s linear forwards;
+  animation: element-close 1.2s linear forwards;
 }
 .tabbar li.move a.calendar div em {
-  -webkit-animation: calendar-2 0.5s linear forwards;
-          animation: calendar-2 0.5s linear forwards;
+  -webkit-animation: calendar-2 1.2s linear forwards;
+  animation: calendar-2 1.2s linear forwards;
 }
-.tabbar li.move a.calendar div em:before, .tabbar li.move a.calendar div em:after {
-  -webkit-animation: calendar-3 0.5s linear forwards;
-          animation: calendar-3 0.5s linear forwards;
+.tabbar li.move a.calendar div em:before,
+.tabbar li.move a.calendar div em:after {
+  -webkit-animation: calendar-3 1.2s linear forwards;
+  animation: calendar-3 1.2s linear forwards;
 }
 .tabbar.move:before {
-  -webkit-animation: move 0.5s linear forwards;
-          animation: move 0.5s linear forwards;
+  -webkit-animation: move 1.2s linear forwards;
+  animation: move 1.2s linear forwards;
 }
 .tabbar.move:after {
-  -webkit-animation: move-after 0.5s linear forwards;
-          animation: move-after 0.5s linear forwards;
+  -webkit-animation: move-after 1.2s linear forwards;
+  animation: move-after 1.2s linear forwards;
 }
 @-webkit-keyframes move {
-  10%, 15% {
+  10%,
+  15% {
     transform: translate(var(--x), 84px);
   }
   30% {
     transform: translate(var(--x-n), 84px);
   }
-  42%, 70% {
+  42%,
+  70% {
     transform: translate(var(--x-n), -16px);
   }
   85% {
@@ -1037,13 +906,15 @@ i {
 }
 
 @keyframes move {
-  10%, 15% {
+  10%,
+  15% {
     transform: translate(var(--x), 84px);
   }
   30% {
     transform: translate(var(--x-n), 84px);
   }
-  42%, 70% {
+  42%,
+  70% {
     transform: translate(var(--x-n), -16px);
   }
   85% {
@@ -1054,7 +925,8 @@ i {
   }
 }
 @-webkit-keyframes move-after {
-  10%, 15% {
+  10%,
+  15% {
     transform: translate(var(--x), 84px) scale(0.82);
   }
   30% {
@@ -1077,7 +949,8 @@ i {
   }
 }
 @keyframes move-after {
-  10%, 15% {
+  10%,
+  15% {
     transform: translate(var(--x), 84px) scale(0.82);
   }
   30% {
@@ -1103,7 +976,8 @@ i {
   30% {
     transform: translateY(0px);
   }
-  40%, 70% {
+  40%,
+  70% {
     transform: translateY(-100px);
   }
   85% {
@@ -1117,7 +991,8 @@ i {
   30% {
     transform: translateY(0px);
   }
-  40%, 70% {
+  40%,
+  70% {
     transform: translateY(-100px);
   }
   85% {
@@ -1283,7 +1158,8 @@ i {
   75% {
     background: var(--primary);
   }
-  80%, 100% {
+  80%,
+  100% {
     background: var(--icon-active);
   }
 }
@@ -1291,7 +1167,9 @@ i {
   75% {
     background: var(--primary);
   }
-  80%, 100% {
+  80%,
+  100% {
     background: var(--icon-active);
   }
 }
+
