@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Poppins:wght@300;400;500&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Rubik+Burned&family=Rubik+Distressed&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Rubik+Burned&family=Rubik+Distressed&display=swap");
 body {
-background: #eaecf0 !important; 
-font-family: 'poppins', sans-serif !important;
--webkit-tap-highlight-color: transparent;
-font-weight: 500 ;
+  background: #fbfbfb !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
 }
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
@@ -160,7 +160,7 @@ font-weight: 500 ;
   border-radius: 10px;
 }
 .cardo {
-  background: #fbfbfb;
+  background: #dcdcdc;
   float: left;
   width: 90px;
   height: 32px;
@@ -243,13 +243,6 @@ font-weight: 500 ;
   transform-origin: 50% 50%;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Rubik+Burned&family=Rubik+Distressed&display=swap");
-body {
-  background: #fbfbfb !important;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  -webkit-tap-highlight-color: transparent;
-}
 .efek {
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
@@ -291,7 +284,7 @@ body {
   color: #13a3d7;
   font-size: 15px;
   text-align: left;
-  margin: 1% 5% 5%;
+  margin: -3% 5% 5%;
 }
 .navigasi {
   display: grid;
@@ -333,7 +326,7 @@ imy {
   color: #fff;
   font-size: 20px;
   text-align: left;
-  margin: -26% 5% 0;
+  margin: 5% 5% 0;
   z-index: 999;
   position: fixed;
 }
@@ -341,7 +334,7 @@ imy {
   height: 105px;
   width: 95px;
   position: relative;
-  margin-top: -40px;
+  margin-top: 70px;
   background: #fbfbfb;
   border-radius: 10px;
   text-transform: ;
@@ -443,7 +436,9 @@ imy {
 }
 
 .ca {
-  background: linear-gradient(to top, #13a3d7 20%, #57d6f9 80%);
+  background: linear-gradient(62deg, #13a3d7,#fff,#57d6f9,#fff);
+  animation: gradient 20s ease infinite;
+  background-size: 400% 400%;
   box-shadow: 5px 5px 10px #c9cccf, -5px -5px 10px #ffffff;
   transition: 0.3s;
   width: 90%;
@@ -496,12 +491,12 @@ imy {
   color: #fff;
   font-size: 20px;
   text-align: left;
-  margin: -12% 5% 0;
+  margin: -15% 5% 0;
   z-index: 999;
   position: fixed;
 }
 body .contain {
-  margin-top: -14%;
+  margin-top: 20%;
   left: 0%;
   font-size: 0;
   border-radius: 3px;
@@ -510,7 +505,7 @@ body .contain {
   background: #;
 }
 .v {
-  margin: -2% 0% 0;
+  margin: -10% 0% 0;
   height: 21px;
   width: auto;
   position: relative;
@@ -573,7 +568,7 @@ body .contain .line {
   background: #57d6f9;
   width: 35%;
   border-radius: 10px;
-  top: 16%;
+  top: 17%;
   left: 0;
   z-index: 99;
   transition: 0.25s ease;
@@ -618,7 +613,7 @@ body .contain .content-contain .content i {
   color: rgb(255, 255, 255);
   font-size: 20px;
   text-align: left;
-  margin: -25% 5% 0;
+  margin: -15% 5% 0;
   z-index: 999;
   position: fixed;
 }
@@ -626,12 +621,12 @@ body .contain .content-contain .content i {
   width: 12%;
   text-align: left;
   border-radius: 100px;
-  margin: 0% 5% 0;
+  margin: 20% 5% 0;
 }
 .edit {
   width: 30px;
   float: right;
-  margin: -10% 5% 0;
+  margin: -7% 5% 0;
   border-radius: 100px;
   background: #fbfbfb;
   box-shadow: 6px 6px 9px #d9d9d9, 0px 0px 0px #ffffff;
@@ -1172,4 +1167,3 @@ i {
     background: var(--icon-active);
   }
 }
-
