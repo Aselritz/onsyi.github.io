@@ -386,7 +386,7 @@ a {
     .OnsyiText-Judu {
         width: 90%;
         color: #333;
-        font-size: 15px;
+        font-size: 90%;
         font-weight: bold;
         margin-left: 5%;
         margin-right: 5%;
@@ -506,7 +506,7 @@ a {
         display: flex;
         overflow-x: auto;
         width: 100%;
-        padding-right: 0px;
+        padding-right: 10px;
         margin-bottom: 0px;
         white-space: nowrap; /* Prevent wrapping to the next line */
     }
