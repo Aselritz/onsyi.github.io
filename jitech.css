@@ -493,7 +493,7 @@ a {
 }
 .OnsyiImage { width: 90%; border-radius: 10px 10px 0 0; margin: -16% 5% 0;
 }
-.OnsyiText-Judul { width: 90%; color: #333; background: # ; font-size: 90%; font-weight: bold; margin-left: 5%; padding-left: 5px; padding-right: 5px; margin-right: 5%; margin-top: 5%; overflow: hidden; text-align: center; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; display: inline-block; border-radius: 10px;
+.OnsyiText-Judul { width: 90%; color: #333; background: # ; font-size: 16px; font-weight: bold; margin-left: 5%; padding-left: 5px; padding-right: 5px; margin-right: 5%; margin-top: 5%; overflow: hidden; text-align: center; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; display: inline-block; border-radius: 10px;
 }
 .OnsyiText-Harga { width: 90%; color: #fff; background: linear-gradient(62deg, #00A2B9, #fff, #00A2B9, #fff); animation: gradient 15s ease infinite; background-size: 400% 400%; font-size: 80%; border-radius: 0px; font-weight: 500; margin-left: 5%; text-decoration: none; display: block; margin-bottom: 10px; text-align: center
 }
