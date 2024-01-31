@@ -1,4 +1,4 @@
-
+ 
         @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Poppins:wght@300;400;500&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Rubik+Burned&family=Rubik+Distressed&display=swap');
 
     body {
@@ -663,7 +663,7 @@
       text-overflow: ellipsis;
       white-space: nowrap;
       text-decoration: none;
-      display: inline-block;
+      display: block;
       border-radius: 10px;
     }
 
@@ -746,7 +746,7 @@
       margin-top: 3px;
       color: #000;
       display: inline-block;
-      font-size: 13px !important;
+      font-size: 80% !important;
       width: 92%;
       text-align: left;
       margin-left: 5%;
@@ -822,7 +822,7 @@
       font-size: 12px;
     }
 
-    /* ...(Produk terbaru 1)... */
+    /* ...(Akun)... */
     .bg {
       background-color: #9ed30d;
       width: 100%;
@@ -1165,7 +1165,6 @@
       border-radius: 0px 0px 0px 0px;
       opacity: 75%;
       width: 130px;
-      font-weight: 130px;
       padding: 2px 2px 2px;
       background: #;
       color: #333;
@@ -1369,7 +1368,6 @@
       border-radius: 0px 0px 0px 0px;
       opacity: 75%;
       width: 130px;
-      font-weight: 130px;
       padding: 2px 2px 2px;
       background: #;
       color: #333;
